@@ -25,7 +25,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
       "x86_64-darwin"
       "aarch64-darwin"
     ];
-    maintainers = with lib.maintainers; [ LeFaucheur0769 ];
+    maintainers = with lib.maintainers; [ lefaucheur0769 ];
     mainProgram = "rustfetch";
   };
 })
