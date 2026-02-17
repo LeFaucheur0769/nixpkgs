@@ -16,7 +16,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
   cargoHash = "sha256-9atn5qyBDy4P6iUoHFhg+TV6Ur71fiah4oTJbBMeEy4=";
 
   meta = {
-    description = "A CLI tool designed to fetch system information in the fastest and safest way possible";
+    description = "CLI tool designed to fetch system information in the fastest and safest way possible";
     homepage = "https://github.com/lemuray/rustfetch";
     license = lib.licenses.mit;
     platforms = [
